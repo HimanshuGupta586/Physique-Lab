@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { Activity, Apple, LineChart, Shield, Zap, Target, Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { Activity, Apple, LineChart, Shield, Zap, Target, Github, Linkedin, Mail } from 'lucide-react';
 
 const Landing = () => {
     const { user } = useSelector((state) => state.auth);
@@ -105,16 +105,13 @@ const Landing = () => {
                             </p>
 
                             <div className="flex items-center justify-center md:justify-start gap-4">
-                                <a href="https://github.com" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-colors text-slate-300 hover:text-white" aria-label="GitHub">
+                                <a href="https://github.com/HimanshuGupta586" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-colors text-slate-300 hover:text-white" aria-label="GitHub">
                                     <Github size={20} />
                                 </a>
-                                <a href="https://twitter.com" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-colors text-slate-300 hover:text-white" aria-label="Twitter">
-                                    <Twitter size={20} />
-                                </a>
-                                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-colors text-slate-300 hover:text-white" aria-label="LinkedIn">
+                                <a href="https://www.linkedin.com/in/himanshu-g27/" target="_blank" rel="noreferrer" className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-colors text-slate-300 hover:text-white" aria-label="LinkedIn">
                                     <Linkedin size={20} />
                                 </a>
-                                <a href="mailto:hello@example.com" className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-colors text-slate-300 hover:text-white" aria-label="Email">
+                                <a href="mailto:himanshugupta.work8@gmail.com" className="p-3 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700 transition-colors text-slate-300 hover:text-white" aria-label="Email">
                                     <Mail size={20} />
                                 </a>
                             </div>
